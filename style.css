@@ -1,5 +1,10 @@
-.header{
+body{
     background-color: pink;
+
+}
+
+.header{
+    
     height: 900px;
     width:100%;
     
@@ -9,7 +14,7 @@ img{
     height: 700px;
     width: 600px;
     float: right;
-    margin-top:5%;
+    border-radius: 50%;
 
 }
 .About p{
@@ -21,11 +26,20 @@ img{
 }
 .header .nav h1{
     color: blueviolet;
-    text-align: center;
+
+    
 }
+
+.nav{
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 5%;
+   
+}
+
 span{
 
-    color: aqua;
+    color: blue;
     font-style: italic;
 }
 em{
@@ -34,8 +48,19 @@ em{
     font-style: italic;
     font-weight: bold;
 }
+.Education{
+    display: flex;
+    margin-top: 10%;
 
-
+}
+.Specification{
+    color: blue;
+}
+h3{
+    text-align: center;
+    color: blueviolet;
+}
+.
 
 
 
