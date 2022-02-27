@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Kumbh Sans', sans-serif;
+}
+.navbar{
+    background:pink;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+#navbar__logo{
+    background-image: linear-gradient( to top, red 0, rgb(46, 28, 206) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+.navbar__item{
+    height: 80px;
+
+}
+.navbar__links{
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    justify-content: center;
+    height: 100%;
+    text-decoration:none;
+}
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background: rgb(56, 8, 56);
+    color: rgb(221, 240, 241);
+}
+.button:hover{
+    background: rgb(153, 3, 73);
+    transition: all 0.3s ease;
+
+}
+.navbar__links:hover{
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* Projects section CSS*/
+.Projects{
+    /*display: flex;
+    align-items: center;
+    height: 100vh;*/
+
+}
+.Projects h1{
+    justify-content: top;
+    background-size: 80%;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    display: flex;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    
+}
+.projects__container{
+    justify-content:left;
+    color: rgb(20, 2, 20);
+
+}
+.projects__done{
+    margin-left: 5%;
+    height: 525px;
+    width: 900px;
+    background-size: cover;
+    color:rgb(32, 2, 15);
+    
+
+
+}
+.projects__done button{
+    color: rgb(228, 17, 140);
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    top: 440px;
+    left: 30px;
+    font-size: 1 rem;
+    cursor: pointer;
+}
+.projects__done:hover{
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
