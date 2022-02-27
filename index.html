@@ -8,48 +8,48 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style.css">
+     
 </head>
   <body>
-      <div class="header"> 
+     <!-- Nav bar section-->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo">
+          <i class="fas.fa-anchor"></i> CAREN</a>
+        <div class="navbar__toggle" id="mobile-menu"> 
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
           
-              <h1> CAREN</h1>
-              
-         
-          <img src="./images/CarenK.jpeg" alt="images">
-          
-        <div class="About"> 
-            
-          <p> Software <span> Enthusiast</span> <br>
-          <em>Eat sleep code repeat </em>is the current <span">slogan </span> <br>
-            I love <em>dancing</em> and <em> rope </em> is my ultimate way of keeping fit.</p>
-            
         </div>
-          
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" id="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" id="navbar__links">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" id="navbar__links">Projects</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/" id="button">Contact</a>
+          </li>
+        </ul>
       </div>
-      <h3>EDUCATION BACKGROUND</h3>
-      <div class="Education">
-          
-          <div class="Specification">
-              <h2> Moringa School</h2>
-              <p> Currently a software development student at Moringa.</p>
-          </div>
-          <div class="Specification">
-            <h2> Kenyatta University</h2>
-            <p> Pursued a bachelors degree in Economics and Statistics.<br> I also attained a professional certification in SPSS and STATA.</p>
-            
-        </div>
-        <div class="Specification">
-            <h2> Karima Girls' High School</h2>
-            <p> Kenya Certificate of Secondary Education</p>
-        </div>
-
-
+    </nav>
+  <!-- Hero section-->
+  <div class="main">
+    <div class="main__container">
+      <div class="main__content">
+        <h1> I am CAREN</h1>
+        <h2> Software Developer</h2>
       </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </div>
+
+  </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
