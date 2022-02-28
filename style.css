@@ -30,8 +30,8 @@
 #navbar__logo{
     background-image: linear-gradient( to top, red 0, rgb(46, 28, 206) 100%);
     background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+    -webkit-background-clip:text;
+    -moz-background-clip: text; 
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent;
     display: flex;
@@ -201,7 +201,7 @@
     background-color: pink;
     background-image: linear-gradient(to top, rgba(168, 18, 148, 0.911) 0%,rgb(4, 16, 85) 100%);
     background-size: 100%;
-    -moz-background-clip: text;
+    -moz-background-clip: text; 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent;
