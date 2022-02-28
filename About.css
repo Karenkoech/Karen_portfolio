@@ -106,7 +106,7 @@
 .Education__container h1{
     font-size: 200%;
     font-weight: 200;
-    color: blueviolet;
+    color: rgb(180, 3, 71);
 }
 .Education__background{
     margin: 1 rem;
@@ -114,17 +114,5 @@
     width: 400px;
     background-size: cover;
     position: relative;
-    color:blueviolet
-
-}
-
-.Education__background h2{
-    
-}
-.Education__background h3{
-   
-
-
-}
-.Education__background p{
-    
+    color:rgb(17, 8, 141);
+    }

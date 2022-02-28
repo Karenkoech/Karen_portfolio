@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -24,7 +24,7 @@
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 80px;
 }
 
 #navbar__logo{
@@ -40,9 +40,6 @@
     text-decoration: none;
     font-size: 2rem;
 
-}
-.fa-anchor{
-    margin-right: 0.5rem;
 }
 .navbar__menu{
     display: flex;
@@ -93,7 +90,7 @@
     color: #fff;
     transition: all 0.3s ease;
 }
-@media screen and (max-width:960px){
+/*@media screen and (max-width:960px){
     .navbar__container{
         display: flex;
         justify-content: space-between;
@@ -178,8 +175,8 @@
     
 }
 #mobile-menu.is-active .bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
-};
+    transform: translateY(-8px) rotate(-45deg);*/
+
 /*Hero section CSS*/
 .main{
     background-color: pink;
@@ -189,7 +186,6 @@
     grid-template-columns: 1fr 1fr;
     justify-self: center;
     height: 90vh;
-    background-color: rgb(229, 182, 215);
     margin: 0 auto;
     align-items: center;
     z-index: 1;
@@ -201,9 +197,9 @@
 .main__content h1{
     text-align: center;
     font-style: oblique;
-    font-size: 4rem;
+    font-size: 3rem;
     background-color: pink;
-    background-image: linear-gradient(to top, rgba(17, 9, 16, 0.911) 0%,rgb(4, 16, 85) 100%);
+    background-image: linear-gradient(to top, rgba(168, 18, 148, 0.911) 0%,rgb(4, 16, 85) 100%);
     background-size: 100%;
     -moz-background-clip: text;
     -webkit-background-clip: text;
@@ -212,11 +208,12 @@
 
 }
 .main__content h2{
-    margin-top: 4rem;
+    margin-top: 2rem;
     font-style: italic;
-    font-size: 4rem;
+    font-size: 2rem;
+    text-align: center;
     background-color: pink;
-    background-image: linear-gradient(to top,rgb(161, 23, 161) 0%,rgb(161, 15, 144) 100%);
+    background-image: linear-gradient(to top,rgb(37, 10, 37) 0%,rgb(10, 5, 56) 100%);
     background-size: 100%;
     -moz-background-clip: text;
     -webkit-background-clip: text;
@@ -225,9 +222,10 @@
 }
 .main__content p{
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-style: italic;
     font-weight: 600;
-    color:rgb(73, 70, 70) ;
+    color:rgb(17, 1, 1) ;
 
 }
 .main__btn{
@@ -244,62 +242,13 @@
     transition: all 0.4s;
     outline: none;
 }
-.main__img--container{
-    text-align: center;
-
+.main img{
+    height: 400px;
+    float: right;
+    width: 400px;
+    border-radius: 60%;
+ 
 }
-#main__img{
-    height: 80%;
-    width: 80%;
-    
-}
-/* Mobile Responsive*/
-@media screen and (max-width:768px){
-    .main__container{
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-self: center;
-        width: 100%;
-        margin: 0 auto;
-        height: 90vh;
-    }
-    .main__content{
-        text-align: center;
-        margin-bottom: 5rem;
-    }
-    .main__content h1{
-        font-size: 3rem;
-        margin-top: 2.5rem;
-
-    }
-    .main__content h2{
-        font-size: 2.5rem;
-
-    }
-    .main__content p{
-        margin-top: 1 rem;
-        font-size: 1.5rem;
-    }
-
-    }
-    @media screen and (max-width:480px){
-        .main__container h1{
-            font-size: 2rem;
-            margin-top: 3 rem;
-        }
-        .main__content h2{
-            font-size: 2 rem;
-        }
-        .main__content p{
-            margin-top: 1 rem;
-            font-size: 1.5rem;
-        }
-        .main__btn{
-            padding: 12px 36px;
-            margin: 2.5rem 0;
-        }
-    }
     /* Projects section CSS*/
     .projects{
         background: rgb(49, 46, 46);
@@ -311,10 +260,10 @@
     }
     .Projects h1{
         background-color: rgb(75, 4, 25);
-        background-image: linear-gradient(to right, rgb(43, 4, 27) 0%,rgb(51, 5, 53) 80%,rgb(43, 4, 37) 27%,rgb(54, 2, 56) 52%, rgb(56, 3, 58) 78%,rgb(155, 5, 155) 100%);
-        background-size: 100%;
-        margin-bottom: 5 rem;
-        font-size: 2.5rem;
+        background-size: 80%;
+        margin-left: 5rem;
+        font-size: 1.5rem;
+        font-style: italic;
         -moz-background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -323,8 +272,8 @@
     }
     .projects__container{
         display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        justify-content:left;
+        color: aqua;
 
     }
     .projects__done{
@@ -332,31 +281,26 @@
         height: 525px;
         width: 400px;
         border-radius: 4px;
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0)0%, rgba(17,17,17,0.6) 100%),url( ./images/practice.jpeg);
         background-size: cover;
-        position: relative;
         color:rgb(26, 4, 4)
     
     }
     .projects__done h3{
-        position: absolute;
         top: 300px;
         left: 30%;
 
     }
     .projects__done p{
-        position: absolute;
         top: 400px;
         left: 30px;
     }
     .projects__done button{
-        color: coral;
+        color: white;
         padding: 10px 20px;
         border: none;
         outline: none;
         border-radius: 4px;
         background: purple;
-        position: absolute;
         top: 440px;
         left: 30px;
         font-size: 1 rem;
@@ -367,7 +311,7 @@
         transition: 0.3s ease-in;
         cursor: pointer;
     }
-    @media screen and (max-width: 960px){
+    /*@media screen and (max-width: 960px){
         .projects{
             height: 1400px;
         }
@@ -390,16 +334,13 @@
         }
       
     }
-    }
-    /* Education Section CSS*/
+    
+     /* Education Section CSS*/
     .Education{
-        background: pink
-        display: flex;
-        flex-direction: column;
+        flex-direction:column-reverse;
         align-items: center;
         height: 100vh;
-
-
+    
     }
     .Education__container{
         display: flex;
@@ -407,37 +348,38 @@
         flex-wrap: wrap;
 
     }
+    .Education__container h1{
+        font-size: 200%;
+        font-weight: 200;
+        color: blueviolet;
+    }
     .Education__background{
         margin: 1 rem;
         height: 525px;
         width: 400px;
-        border-radius: 4px;
         background-size: cover;
         position: relative;
         color:blueviolet
     
     }
-
-    .Education__background h2{
-        position: relative;
-        top: 400px;
-        left: 40%;
+    /*@media screen and (max-width: 960px){
+        .Education{
+            height: 1400px;
+        }
+        .Education__background{
+            font-size: 2 rem;
+            margin-top: 12 rem;
+        }
+        
     }
-    .Education__background h3{
-        position: absolute;
-        top: 300px;
-        left: 30%;
+    @media screen and (max-width:480px){
+        .Education{
+            height: 1300px;
 
-
-    }
-    .Education__background p{
-        position: relative;
-        : 100px;
-        left: 30px;
-
-    }
-
-    
+        }
+        .Education__background{
+            width: 300px;
+        } 
 }
 
 
